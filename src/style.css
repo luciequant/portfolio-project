@@ -120,11 +120,42 @@ p {
 }
 .navbar-brand {
   font-family: var(--heading-font);
-  color: var(--branding-color);
+  color: #282148;
 }
 .active {
   color: var(--branding-color) !important;
 }
 .contact-link {
   color: var(--branding-color);
+}
+footer {
+  margin: 50px 0;
+}
+footer .work-box {
+  background: var(--secondary-color);
+  border-radius: 6px;
+}
+footer h4 {
+  font-size: 30px;
+}
+footer .email-link {
+  color: black;
+  text-decoration: none;
+  font-size: 26px;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer .social-links {
+  color: var(--branding-color);
+  margin: 0 20px;
+  background: var(--secondary-color);
+  padding: 14px 16px;
+  font-size: 24px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links:hover {
+  color: var(--secondary-color);
+  background: var(--branding-color);
 }

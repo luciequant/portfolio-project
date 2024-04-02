@@ -160,3 +160,10 @@ footer .social-links:hover {
   color: white;
   background: var(--branding-color);
 }
+footer .github-link {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+footer .github {
+  font-size: 12px;
+}

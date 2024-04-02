@@ -118,3 +118,13 @@ p {
     padding: 0;
   }
 }
+.navbar-brand {
+  font-family: var(--heading-font);
+  color: var(--branding-color);
+}
+.active {
+  color: var(--branding-color) !important;
+}
+.contact-link {
+  color: var(--branding-color);
+}
